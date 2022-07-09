@@ -1,0 +1,74 @@
+{
+	"info": {
+		"_postman_id": "70ad1153-acd3-40c3-83a3-910e47b10f37",
+		"name": "New Collection",
+		"schema": "https://schema.getpostman.com/json/collection/v2.0.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Register User",
+			"_postman_id": "09c78994-c0f2-41c8-a41e-75d5b6eeb521",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Login Request",
+			"_postman_id": "a534ffaa-8276-4b1b-b0a0-ae3a08317ebe",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Get User",
+			"_postman_id": "66f96f45-a233-4821-b879-1c75b02808eb",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Delete user",
+			"_postman_id": "f266a0fd-e9cf-4434-9bdd-abec0d3e9682",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "Update user",
+			"_postman_id": "113fcb65-c506-4f35-9ee8-d1cf25e8ffe2",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		}
+	]
+}
