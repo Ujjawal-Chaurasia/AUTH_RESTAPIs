@@ -69,8 +69,9 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "DELETE",
+				"header": [],
+				"url": "http://localhost:5000/user/62ca66b8f970c15f758c32fa"
 			},
 			"response": []
 		},
