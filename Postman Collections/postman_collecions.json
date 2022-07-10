@@ -313,7 +313,66 @@
 				},
 				"url": "http://localhost:5000/user/62c9d02cef930579fbd1bb0c"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "4f885148-5fe9-43e3-b3e6-f0f8cf82a7f3",
+					"name": "Update user",
+					"originalRequest": {
+						"method": "PATCH",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"name\":\"bob2\",\r\n   \"email\":\"doe2@gmail.com\",\r\n   \"password\":\"13\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/user/62c9d02cef930579fbd1bb0c"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "155"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9b-fH/OKd4/jhZzGzcjGxnpUMx57Qs\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 06:09:49 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"_id\": \"62c9d02cef930579fbd1bb0c\",\n    \"name\": \"bob2\",\n    \"email\": \"doe2@gmail.com\",\n    \"password\": \"$2b$10$weHTxiThunGa/oacnZUZX.qPQECQ/8BVvF./a7IU5pppZCyazVD5G\",\n    \"__v\": 0\n}"
+				}
+			]
 		}
 	]
 }
