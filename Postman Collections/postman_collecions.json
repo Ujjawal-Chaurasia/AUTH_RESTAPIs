@@ -82,8 +82,18 @@
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
-				"header": []
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"bob2\",\r\n   \"email\":\"doe2@gmail.com\",\r\n   \"password\":\"13\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/user/62c9d02cef930579fbd1bb0c"
 			},
 			"response": []
 		}
