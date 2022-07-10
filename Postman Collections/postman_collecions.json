@@ -25,7 +25,66 @@
 				},
 				"url": "http://localhost:5000/auth/register"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "a555567e-5b06-487f-9c75-166df109770f",
+					"name": "Register User",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"name\":\"Jhon\",\r\n   \"email\":\"babu@gmail.com\",\r\n   \"password\":\"123\",\r\n   \"confirmPassword\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/auth/register"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "193"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c1-NkTnZ4BzD4vnTkXDY2FmYmKkCgs\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 05:42:16 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhYnVAZ21haWwuY29tIiwiaWQiOiI2MmNhNjZiOGY5NzBjMTVmNzU4YzMyZmEiLCJpYXQiOjE2NTc0MzE3MzZ9.umg3PdA9xU6TssVVbCiAw-NpTpdnN88ARPYtoPj9fII\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Login Request",
