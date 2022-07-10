@@ -57,7 +57,8 @@
 			},
 			"request": {
 				"method": "GET",
-				"header": []
+				"header": [],
+				"url": "http://localhost:5000/user/62c9d02cef930579fbd1bb0c"
 			},
 			"response": []
 		},
