@@ -106,7 +106,66 @@
 				},
 				"url": "http://localhost:5000/auth/logiin"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "218b3782-7c84-48c6-bf66-68a85b721aa9",
+					"name": "Login Request",
+					"originalRequest": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\r\n   \"email\":\"babu@gmail.com\",\r\n   \"password\":\"123\"\r\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": "http://localhost:5000/auth/logiin"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "193"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"c1-JIX/SUhk8kGeZf/jzB0xt4gJBrI\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 05:53:28 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"token\": \"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6ImJhYnVAZ21haWwuY29tIiwiaWQiOiI2MmNhNjZiOGY5NzBjMTVmNzU4YzMyZmEiLCJpYXQiOjE2NTc0MzI0MDh9.c8qiEXmDiAThJuoVE632gP7MbTRftjvkaBSn0dQti0g\"\n}"
+				}
+			]
 		},
 		{
 			"name": "Get User",
