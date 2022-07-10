@@ -178,7 +178,57 @@
 				"header": [],
 				"url": "http://localhost:5000/user/62c9d02cef930579fbd1bb0c"
 			},
-			"response": []
+			"response": [
+				{
+					"id": "34ac6858-f5ac-4582-b361-f13ea10fee5b",
+					"name": "Get User",
+					"originalRequest": {
+						"method": "GET",
+						"header": [],
+						"url": "http://localhost:5000/user/62c9d02cef930579fbd1bb0c"
+					},
+					"status": "OK",
+					"code": 200,
+					"_postman_previewlanguage": "json",
+					"header": [
+						{
+							"key": "X-Powered-By",
+							"value": "Express"
+						},
+						{
+							"key": "Access-Control-Allow-Origin",
+							"value": "*"
+						},
+						{
+							"key": "Content-Type",
+							"value": "application/json; charset=utf-8"
+						},
+						{
+							"key": "Content-Length",
+							"value": "154"
+						},
+						{
+							"key": "ETag",
+							"value": "W/\"9a-blRKPMm1jAA+8/CI1ai1pNBO63c\""
+						},
+						{
+							"key": "Date",
+							"value": "Sun, 10 Jul 2022 05:50:18 GMT"
+						},
+						{
+							"key": "Connection",
+							"value": "keep-alive"
+						},
+						{
+							"key": "Keep-Alive",
+							"value": "timeout=5"
+						}
+					],
+					"cookie": [],
+					"responseTime": null,
+					"body": "{\n    \"_id\": \"62c9d02cef930579fbd1bb0c\",\n    \"name\": \"bob\",\n    \"email\": \"doe2@gmail.com\",\n    \"password\": \"$2b$10$0bHxwIvjTEQg2kFBX8y2ruUn2ssdozRTJRuXF62gk6IMnGbhAV3KK\",\n    \"__v\": 0\n}"
+				}
+			]
 		},
 		{
 			"name": "Delete user",
