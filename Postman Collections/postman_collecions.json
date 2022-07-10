@@ -7,66 +7,71 @@
 	"item": [
 		{
 			"name": "Register User",
-			"_postman_id": "09c78994-c0f2-41c8-a41e-75d5b6eeb521",
+			"id": "09c78994-c0f2-41c8-a41e-75d5b6eeb521",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
-				"method": "GET",
+				"method": "POST",
 				"header": [],
-				"url": null
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"name\":\"Jhon\",\r\n   \"email\":\"babu@gmail.com\",\r\n   \"password\":\"123\",\r\n   \"confirmPassword\":\"123\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": "http://localhost:5000/auth/register"
 			},
 			"response": []
 		},
 		{
 			"name": "Login Request",
-			"_postman_id": "a534ffaa-8276-4b1b-b0a0-ae3a08317ebe",
+			"id": "a534ffaa-8276-4b1b-b0a0-ae3a08317ebe",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		},
 		{
 			"name": "Get User",
-			"_postman_id": "66f96f45-a233-4821-b879-1c75b02808eb",
+			"id": "66f96f45-a233-4821-b879-1c75b02808eb",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		},
 		{
 			"name": "Delete user",
-			"_postman_id": "f266a0fd-e9cf-4434-9bdd-abec0d3e9682",
+			"id": "f266a0fd-e9cf-4434-9bdd-abec0d3e9682",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		},
 		{
 			"name": "Update user",
-			"_postman_id": "113fcb65-c506-4f35-9ee8-d1cf25e8ffe2",
+			"id": "113fcb65-c506-4f35-9ee8-d1cf25e8ffe2",
 			"protocolProfileBehavior": {
 				"disableBodyPruning": true
 			},
 			"request": {
 				"method": "GET",
-				"header": [],
-				"url": null
+				"header": []
 			},
 			"response": []
 		}
